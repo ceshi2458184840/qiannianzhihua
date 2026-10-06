@@ -1,7 +1,7 @@
 game.import("extension", function (lib, game, ui, get, ai, _status) {
     "use strict";
     return {
-        name: "千年之华",
+        name: "沈清辞",
         editable: false,
         content: function (config, pack) {},
         precontent: function () {},
@@ -10,10 +10,10 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
         package: {
             character: {
                 character: {
-                    qiannianzhihua: ["female", "shen", 6, ["youmingSheling", "nichangTianshou", "luoshuiMfei", "jueyaYazhi"], ["isExtension", "des:千年之华·万界主宰 —— 阴间终极武将"]],
+                    shenqingci: ["female", "shen", 6, ["youmingSheling", "nichangTianshou", "luoshuiMfei", "jueyaYazhi"], ["isExtension", "des:沈清辞·万界主宰 —— 阴间终极武将"]],
                 },
                 translate: {
-                    qiannianzhihua: "千年之华",
+                    shenqingci: "沈清辞",
                 },
             },
             card: { card: {}, translate: {}, list: [] },
@@ -215,12 +215,12 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
                     jueyaYazhi_lock: "绝对压制",
                 },
             },
-            intro: "千年之华 —— 万界主宰（阿清自制·阴间终极武将）",
+            intro: "沈清辞 —— 万界主宰（阿清自制·阴间终极武将）",
             author: "阿清",
             diskURL: "",
             forumURL: "",
             version: "1.0",
         },
-        files: { character: [], card: [], skill: [], audio: [] },
+        files: { character: ["shenqingci.jpg"], card: [], skill: [], audio: [] },
     };
 });
