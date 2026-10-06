@@ -10,7 +10,7 @@ game.import("extension", function (lib, game, ui, get, ai, _status) {
         package: {
             character: {
                 character: {
-                    shenqingci: ["female", "shen", 6, ["youmingSheling", "nichangTianshou", "luoshuiMfei", "jueyaYazhi"], ["isExtension", "des:沈清辞·万界主宰 —— 阴间终极武将（千年之旅元素）"]],
+                    shenqingci: ["female", "shen", 6, ["youmingSheling", "nichangTianshou", "luoshuiMfei", "jueyaYazhi"], ["No_Outcrop", "isExtension", "des:沈清辞·万界主宰 —— 阴间终极武将（千年之旅元素）"]],
                 },
                 translate: {
                     shenqingci: "沈清辞",
